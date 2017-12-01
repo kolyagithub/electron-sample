@@ -1,5 +1,7 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
+.idea/electron-sample.iml
+.idea/inspectionProfiles/
+.idea/modules.xml
+.idea/workspace.xml
+npm-debug.log
+/node_modules/
+/build/

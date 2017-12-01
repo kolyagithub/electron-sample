@@ -1,0 +1,16 @@
+{
+  "name": "electron-sample",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . SimpleElectron --platform=win32 --arch=x64 --appVersion=0.1.1 --appCopyright=Data Micron Inc. --buildVersion=0.2.2 --icon=./icon/favicon.ico --overwrite --out=./build/ --production --asar=true"
+  },
+  "author": "qudrat",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "1.6.8",
+    "electron-packager": "8.7.0"
+  }
+}
